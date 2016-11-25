@@ -1,0 +1,11 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+            id="io.payworks.mpos" version="0.0.2">
+        <name>Payworks mPOS</name>
+        <description>mPOS SDK</description>
+        <license></license>
+        <keywords>mpos</keywords>
+        <platform name="android">
+
+        </platform>
+    </plugin>

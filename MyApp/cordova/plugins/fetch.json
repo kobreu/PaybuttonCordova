@@ -1,0 +1,10 @@
+{
+    "io.payworks.mpos": {
+        "source": {
+            "type": "local",
+            "path": "../plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

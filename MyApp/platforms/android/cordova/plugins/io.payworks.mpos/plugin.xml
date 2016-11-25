@@ -1,0 +1,17 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+    <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+            id="io.payworks.mpos" version="0.0.2">
+        <name>Payworks mPOS</name>
+        <description>mPOS SDK</description>
+        <license></license>
+        <keywords>mpos</keywords>
+        <platform name="android">
+    	    <source-file src="src/android/MposUIPlugin.java" target-dir="src/io/payworks/"/>
+			<config-file target="res/xml/config.xml" parent="/*">
+      			<feature name="MposUIPlugin">
+        			<param name="android-package" value="io.payworks.MposUIPlugin"/>
+      			</feature>
+    		</config-file>
+    		<framework src="src/android/mpos.gradle" custom="true" type="gradleReference" />
+        </platform>
+    </plugin>
