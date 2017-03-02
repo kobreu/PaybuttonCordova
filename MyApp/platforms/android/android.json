@@ -14,7 +14,7 @@
                         },
                         {
                             "xml": "<feature name=\"MposUIPlugin\"><param name=\"android-package\" value=\"io.payworks.MposUIPlugin\" /></feature>",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }

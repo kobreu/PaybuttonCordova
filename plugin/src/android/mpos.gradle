@@ -6,29 +6,23 @@ repositories{
 }
 
 dependencies {
-	compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:support-v4:23.1.1'
-    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:support-v4:25.0.1'
+    compile 'com.android.support:cardview-v7:25.0.1'
 
     compile 'com.squareup:otto:1.3.5'
-    compile 'com.squareup.okhttp:okhttp:2.7.2'
+    compile 'com.squareup.okhttp:okhttp:2.7.4'
+    compile 'com.squareup.okhttp:okhttp-ws:2.7.4'
     compile 'com.parse.bolts:bolts-android:1.2.1'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.4.4'
 
-    compile 'io.payworks:mpos.android.ui:2.7.0:@aar'
-    compile 'io.payworks:mpos.android.core:2.7.0:@aar'
+    compile 'io.payworks:mpos.android.ui:2.18.0:@aar'
+    compile 'io.payworks:mpos.android.core:2.18.0:@aar'
 
-    // Add those two dependencies if you want to use a Miura card reader
-    compile 'io.payworks:mpos.android.accessories.miura:2.7.0:@aar'
-    compile 'io.payworks:mpos.android.comlinks.bluetooth:2.7.0:@aar'
-
-    // Add those three dependencies if you want to use the Verifone e105 reader (note: use Android minSdkVersion 16)
-    //compile 'io.payworks:mpos.android.accessories.verifone-e105:2.6.0:@aar'
-    //compile 'io.payworks:mpos.android.comlinks.verifone-e105:2.6.0:@aar'
-    //compile 'com.verifone:verifone-pwmadk:3.0.2@aar'
-
-	// Add this dependency if you want to use the Sewoo LK-P21 printer
-    //compile 'io.payworks:mpos.android.accessories.sewoo:2.6.0:@aar'
+    // Add those three dependencies if you want to use a Miura card reader
+    compile 'io.payworks:mpos.android.accessories.miura:2.18.0:@aar'
+    compile 'io.payworks:mpos.android.comlinks.bluetooth:2.18.0:@aar'
+    compile 'io.payworks:mpos.android.comlinks.tcp:2.18.0:@aar'
 }
 
 android {
